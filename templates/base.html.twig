@@ -2,11 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}shoefony!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
+
+    <footer>
+
+        <p>Copyright &copy; Shoefony  {{ "now"|date("Y") }}</p>
+    </footer>
 </html>

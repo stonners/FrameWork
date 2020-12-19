@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="" />
+    <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Controller/indexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/accueil.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product-details.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product-list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/StroreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StroreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/presentation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presentation.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -125,25 +157,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607154442489</updated>
-      <workItem from="1607154443606" duration="8226000" />
+      <workItem from="1607154443606" duration="8631000" />
+      <workItem from="1607325354274" duration="32000" />
+      <workItem from="1608363097442" duration="8573000" />
+      <workItem from="1608374053445" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="155" key="NewPhpClassDialog" timestamp="1607160873328">
-      <screen x="0" y="0" width="1450" height="864" />
+    <state x="504" y="187" key="FileChooserDialogImpl" timestamp="1607325380659">
+      <screen x="0" y="0" width="1446" height="864" />
     </state>
+    <state x="504" y="187" key="FileChooserDialogImpl/0.0.1446.864@0.0.1446.864" timestamp="1607325380659" />
+    <state x="526" y="155" key="NewPhpClassDialog" timestamp="1608364875153">
+      <screen x="0" y="0" width="1446" height="864" />
+    </state>
+    <state x="526" y="155" key="NewPhpClassDialog/0.0.1446.864@0.0.1446.864" timestamp="1608364875153" />
     <state x="527" y="155" key="NewPhpClassDialog/0.0.1450.864@0.0.1450.864" timestamp="1607160873328" />
     <state x="561" y="355" key="NewPhpFileDialog" timestamp="1607157290439">
       <screen x="0" y="0" width="1450" height="864" />
     </state>
     <state x="561" y="355" key="NewPhpFileDialog/0.0.1450.864@0.0.1450.864" timestamp="1607157290439" />
-    <state x="382" y="197" key="run.anything.popup" timestamp="1607159557840">
+    <state x="148" y="0" width="1048" height="851" key="dock-window-1" timestamp="1608363979278">
       <screen x="0" y="0" width="1450" height="864" />
     </state>
+    <state x="148" y="0" width="1048" height="851" key="dock-window-1/0.0.1450.864@0.0.1450.864" timestamp="1608363979278" />
+    <state x="381" y="197" key="run.anything.popup" timestamp="1608366187517">
+      <screen x="0" y="0" width="1446" height="864" />
+    </state>
+    <state x="381" y="197" key="run.anything.popup/0.0.1446.864@0.0.1446.864" timestamp="1608366187517" />
     <state x="382" y="197" key="run.anything.popup/0.0.1450.864@0.0.1450.864" timestamp="1607159557840" />
   </component>
 </project>
