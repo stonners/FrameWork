@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/indexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accueil.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product-details.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/product-list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/StroreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StroreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/indexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/indexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/presentation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/presentation.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +135,8 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-code" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lEFexvjRuFztvhzOxgONjrMmvs" />
@@ -146,7 +148,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -161,6 +170,7 @@
       <workItem from="1607325354274" duration="32000" />
       <workItem from="1608363097442" duration="8573000" />
       <workItem from="1608374053445" duration="47000" />
+      <workItem from="1610176248322" duration="6865000" />
     </task>
     <servers />
   </component>
@@ -180,6 +190,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="562" y="121" width="412" height="662" key="#com.intellij.ide.util.MemberChooser" timestamp="1610177666768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="121" width="412" height="662" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1610177666768" />
     <state x="504" y="187" key="FileChooserDialogImpl" timestamp="1607325380659">
       <screen x="0" y="0" width="1446" height="864" />
     </state>
@@ -193,6 +207,10 @@
       <screen x="0" y="0" width="1450" height="864" />
     </state>
     <state x="561" y="355" key="NewPhpFileDialog/0.0.1450.864@0.0.1450.864" timestamp="1607157290439" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1610181987287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610181987287" />
     <state x="148" y="0" width="1048" height="851" key="dock-window-1" timestamp="1608363979278">
       <screen x="0" y="0" width="1450" height="864" />
     </state>

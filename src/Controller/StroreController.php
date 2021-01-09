@@ -21,23 +21,17 @@ class StroreController extends AbstractController
         return $this->render("product-details.html.twig",['id'=>$id]);
     }
     /**
-     * @Route("/store/product/{id}/details/{slug}" , name = "store_product" )
+     * @Route("/store/product/{id}/details/{slug}" , name = "show_product" )
      */
     public function pres(Request $request,int $id,String $slug): Response
     {
         return $this->render("store.html.twig",['id'=>$id,'slug'=>$slug,
             'ip'=>$request->getClientIp()]);
     }
-    /**
-     * @Route("/contact" , name = "store_product" )
-     */
-    public function contact(): Response
-    {
-        return $this->render("contact.html.twig");
-    }
+
 
     /**
-     * @Route("/nosProd" , name = "store_product" )
+     * @Route("/nosProd" , name = "list_products" )
      */
     public function nosProd(): Response
     {

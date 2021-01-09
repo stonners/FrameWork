@@ -8,13 +8,13 @@ use Symfony\Component\Routing\Annotation\Route;
 
 
 /**
- * @Route("",name="Main")
+ * @Route("",name="Main_")
  */
 class indexController extends AbstractController
 {
 
     /**
-     * @Route("/" , name = "main_index" )
+     * @Route("/", name = "homepage")
      */
     public function pres(): Response
     {
