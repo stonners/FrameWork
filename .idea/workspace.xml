@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/SendEmail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ContactMailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/SendEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/SendEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ContactMailer.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +170,7 @@
       <workItem from="1607325354274" duration="32000" />
       <workItem from="1608363097442" duration="8573000" />
       <workItem from="1608374053445" duration="47000" />
-      <workItem from="1610176248322" duration="11896000" />
+      <workItem from="1610176248322" duration="12007000" />
     </task>
     <servers />
   </component>
