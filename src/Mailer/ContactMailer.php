@@ -29,5 +29,6 @@ class ContactMailer
             ->to('stonnersdu39@gmail.com')
             ->subject('un test')
             ->html($this->twig->render('contactEmail.html.twig', ['contact' => $this->contactEmailAdress]));
+       // $this->mailer->send($email);
     }
 }

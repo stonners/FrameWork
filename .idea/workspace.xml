@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Nouveau Archive WinRAR ZIP.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mailer/ContactMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mailer/ContactMailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product-list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product-list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,8 @@
       <workItem from="1610349817661" duration="42000" />
       <workItem from="1610780629981" duration="11062000" />
       <workItem from="1610954308199" duration="420000" />
-      <workItem from="1610988573268" duration="1795000" />
+      <workItem from="1610988573268" duration="2072000" />
+      <workItem from="1610991257505" duration="350000" />
     </task>
     <servers />
   </component>
