@@ -24,9 +24,9 @@
                         <div class="caption">
 
                             <h3>{{ produit.name|capitalize }}</h3>
-                            <p>Une description courte du produit sera affichée à cet endroit.</p>
+                            <p>{{ produit.description }}</p>
                             <p>
-                                <span class="badge">120,00 €</span>
+                                <span class="badge">{{ produit.price }}</span>
                                 <a href="{{ asset('/store/product/'~produit.id) }}" class="btn btn-default">Voir la fiche</a>
                             </p>
                         </div>

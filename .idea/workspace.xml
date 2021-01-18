@@ -20,26 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a89a200d-d927-4a31-a744-faff51bc3e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210116095557.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210116102451.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20210116111503.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Store/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mailer/ContactMailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ContactRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/Store/ProductRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/StroreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/StroreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mailer/ContactMailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mailer/ContactMailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product-list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product-list.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +180,8 @@
       <workItem from="1610176248322" duration="12070000" />
       <workItem from="1610349817661" duration="42000" />
       <workItem from="1610780629981" duration="11062000" />
-      <workItem from="1610954308199" duration="341000" />
+      <workItem from="1610954308199" duration="420000" />
+      <workItem from="1610988573268" duration="1795000" />
     </task>
     <servers />
   </component>
