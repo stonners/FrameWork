@@ -3,6 +3,9 @@
 
 namespace App\Controller;
 
+
+use App\Entity\Store\Product;
+use App\Repository\Store\ProductRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
@@ -13,6 +16,17 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class StroreController extends AbstractController
 {
+    private ProductRepository $productRepository;
+
+    /**
+     * StroreController constructor.
+     * @param ProductRepository $productRepository
+     */
+    public function __construct(ProductRepository $productRepository)
+    {
+        $this->productRepository = $productRepository;
+    }
+
     /**
      * @Route("/store/product/{id}" , name = "prod_detail" )
      */
@@ -35,7 +49,8 @@ class StroreController extends AbstractController
      */
     public function nosProd(): Response
     {
-        return $this->render("product-list.html.twig");
+        $produit= $this->productRepository->findAll();
+        return $this->render("product-list.html.twig",['produits'=>$produit]);
     }
 
 

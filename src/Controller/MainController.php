@@ -4,6 +4,7 @@
 namespace App\Controller;
 use App\Entity\Contact;
 use App\Form\ContactType;
+use App\Mailer\ContactMailer;
 use Symfony\Component\HttpFoundation\Request;
 use phpDocumentor\Reflection\Types\This;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -16,6 +17,13 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class MainController extends AbstractController
 {
+    /**
+     * MainController constructor.
+     */
+    public function __construct(ContactMailer $contactMailer)
+    {
+        $this->contactMailer = $contactMailer;
+    }
 
     /**
      * @Route("/presentation", name="presentation")
@@ -37,7 +45,7 @@ class MainController extends AbstractController
 
         if ($form->isSubmitted()&& $form->isValid()){
             $this->addFlash('success','Merci votre message a bien été pris en compte ! ');
-
+            $this->contactMailer->send($contact);
             return  $this->redirectToRoute('main_contact');
         }
         return $this->render('contact.html.twig',[
