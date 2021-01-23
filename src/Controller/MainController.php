@@ -2,12 +2,12 @@
 
 
 namespace App\Controller;
+
 use App\Entity\Contact;
 use App\Form\ContactType;
 use App\Mailer\ContactMailer;
-use Symfony\Component\HttpFoundation\Request;
-use phpDocumentor\Reflection\Types\This;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -18,7 +18,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class MainController extends AbstractController
 {
     /**
+     * @var ContactMailer
+     */
+    private ContactMailer $contactMailer;
+
+
+    /**
      * MainController constructor.
+     * @param ContactMailer $contactMailer
      */
     public function __construct(ContactMailer $contactMailer)
     {
@@ -35,21 +42,23 @@ class MainController extends AbstractController
 
     /**
      * @Route("/contact", name="contact", methods={"GET","POST"})
+     * @param Request $request
+     * @return Response
      */
-    public function contact(Request $request):Response
+    public function contact(Request $request): Response
     {
-        $contact= new Contact();
-        $form=$this->createForm(ContactType::class,$contact);
+        $contact = new Contact();
+        $form = $this->createForm(ContactType::class, $contact);
 
         $form->handleRequest($request);
 
-        if ($form->isSubmitted()&& $form->isValid()){
-            $this->addFlash('success','Merci votre message a bien été pris en compte ! ');
+        if ($form->isSubmitted() && $form->isValid()) {
+            $this->addFlash('success', 'Merci votre message a bien été pris en compte ! ');
             $this->contactMailer->send($contact);
-            return  $this->redirectToRoute('main_contact');
+            return $this->redirectToRoute('main_contact');
         }
-        return $this->render('contact.html.twig',[
-            'form'=>$form->createView()
+        return $this->render('contact.html.twig', [
+            'form' => $form->createView()
         ]);
     }
 }

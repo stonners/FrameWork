@@ -4,11 +4,10 @@
 namespace App\Controller;
 
 
-use App\Entity\Store\Product;
 use App\Repository\Store\ProductRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
@@ -32,15 +31,16 @@ class StroreController extends AbstractController
      */
     public function prese(int $id): Response
     {
-        return $this->render("product-details.html.twig",['id'=>$id]);
+        return $this->render("product-details.html.twig", ['id' => $id]);
     }
+
     /**
      * @Route("/store/product/{id}/details/{slug}" , name = "show_product" )
      */
-    public function pres(Request $request,int $id,String $slug): Response
+    public function pres(Request $request, int $id, string $slug): Response
     {
-        return $this->render("store.html.twig",['id'=>$id,'slug'=>$slug,
-            'ip'=>$request->getClientIp()]);
+        return $this->render("store.html.twig", ['id' => $id, 'slug' => $slug,
+            'ip' => $request->getClientIp()]);
     }
 
 
@@ -49,10 +49,9 @@ class StroreController extends AbstractController
      */
     public function nosProd(): Response
     {
-        $produit= $this->productRepository->findAll();
-        return $this->render("product-list.html.twig",['produits'=>$produit]);
+        $produit = $this->productRepository->findAll();
+        return $this->render("product-list.html.twig", ['produits' => $produit]);
     }
-
 
 
 }

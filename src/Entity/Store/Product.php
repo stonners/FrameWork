@@ -3,6 +3,7 @@
 namespace App\Entity\Store;
 
 use App\Repository\Store\ProductRepository;
+use dateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -17,35 +18,34 @@ class Product
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      */
-    private $id;
+    private ?int $id;
 
     /**
      * @ORM\Column(type="string", length=50)
      */
-    private $name;
+    private ?string $name;
 
     /**
      * @ORM\Column(type="text")
      */
-    private $description;
+    private ?string $description;
 
     /**
      * @ORM\Column(type="decimal", precision=10, scale=2)
      */
-    private $price;
+    private ?string $price;
 
     /**
      * @ORM\Column(type="datetime")
      */
-    private $createdAt;
+    private dateTime $createdAt;
 
     /**
      * Product constructor.
-     * @param $id
      */
     public function __construct()
     {
-        $this->createdAt = new \dateTime();
+        $this->createdAt = new dateTime();
     }
 
     public function getId(): ?int
@@ -90,7 +90,7 @@ class Product
     }
 
 
-    public function getCreatedAt(): ?\dateTime
+    public function getCreatedAt(): ?dateTime
     {
         return $this->createdAt;
     }

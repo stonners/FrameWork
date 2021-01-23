@@ -3,9 +3,9 @@
 namespace App\Entity;
 
 
-use Doctrine\ORM\Mapping as ORM;
 use App\Repository\ContactRepository;
-use Symfony\Component\Mime\Email;
+use DateTime;
+use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
@@ -26,7 +26,7 @@ class Contact
      * @Assert\NotBlank(message="Ce champ ne peut pas être vide.")
      * @ORM\Column(type="string", length=50)
      */
-    private $firstName;
+    private string $firstName;
 
     /**
      * @var string
@@ -34,7 +34,7 @@ class Contact
      * @Assert\NotBlank(message="Ce champ ne peut pas être vide.")
      * @ORM\Column(type="string", length=50)
      */
-    private $lastName;
+    private string $lastName;
 
     /**
      * @var string
@@ -42,7 +42,7 @@ class Contact
      * @Assert\NotBlank(message="Ce champ ne peut pas être vide.")
      * @Assert\Email(message="L'email {{value}} n'est pas valide.")
      */
-    private $email;
+    private string $email;
 
     /**
      * @var string
@@ -50,21 +50,20 @@ class Contact
      * @Assert\NotBlank(message="Ce champ ne peut pas être vide.")
      * @Assert\Length(min="25",minMessage="Votre message doit contenir au minimum {{limit}} caractères.")
      */
-    private $message;
+    private string $message;
 
 
     /**
      * @ORM\Column(type="datetime")
      */
-    private $createdAt;
+    private DateTime $createdAt;
 
     /**
      * Contact constructor.
-     * @param $createdAt
      */
     public function __construct()
     {
-        $this->createdAt = new \DateTime();
+        $this->createdAt = new DateTime();
     }
 
     /**
@@ -160,7 +159,6 @@ class Contact
     {
         $this->createdAt = $createdAt;
     }
-
 
 
 }
